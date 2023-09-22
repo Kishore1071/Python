@@ -1,0 +1,34 @@
+import mysql.connector
+
+mysql_db = mysql.connector.connect(
+    host = "localhost",
+    user = "root",
+    password = "1234",
+    database="mydatabase"
+)
+
+mysql_cursor = mysql_db.cursor()
+
+query = "insert into customers (name, address, age) values (%s, %s, %s)"
+
+
+# For Single Record
+
+values = ("Kishore", "Cheyur", 25)
+
+mysql_cursor.execute(query, values)
+
+# For Multiple Record
+
+values = [
+    ("Kishore", "Cheyur", 25),
+    ("Stark", "New York", 57)
+]
+
+mysql_cursor.executemany(query, values)
+
+mysql_db.commit()
+
+print(mysql_cursor.rowcount, "New Record Added")
+
+print(mysql_cursor.lastrowid, "Id Of New Record Added")
