@@ -57,3 +57,5 @@ car[3]
 planets = "Mercury Venus Earth Mars Jupiter"
 
 planets.split(" ")
+
+print(planets.split(" "))

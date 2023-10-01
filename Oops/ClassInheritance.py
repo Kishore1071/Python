@@ -1,14 +1,14 @@
 class PersonalDetails:
 
-    def __init__(self, name, age, year):
+    def __init__(self, name, age, number):
 
         self.name = name
         self.age = age
-        self.year = year
+        self.number = number
 
     def getUserName(self):
 
-        return self.name + str(self.age) + str(self.year)
+        return self.name + str(self.age) + str(self.number)
 
 class ProfessionalDetails(PersonalDetails):
 
@@ -19,7 +19,7 @@ class ProfessionalDetails(PersonalDetails):
 
     def getDesignation(self):
 
-        return self.designation
+        return self.designation + " " + self.name
 
 professional = ProfessionalDetails("Kishore", 25, 1998, "Software Developer")
 

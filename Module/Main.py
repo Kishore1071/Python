@@ -1,5 +1,6 @@
-import Calculator
+# import Calculator
+from Calculator import Addtion
 
-a = Calculator.Addtion(15,2)
+a = Addtion(15,2)
 
 print(a)

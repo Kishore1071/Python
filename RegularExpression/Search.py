@@ -34,6 +34,10 @@ content = "Space is a three-dimensional continuum containing positions and direc
 
 #         print(f"{len(pattern2)} matches found")
 
+# else:
+
+#     print("No match found")
+
 """Split"""
 
 # pattern3 = re.split("\s", content)

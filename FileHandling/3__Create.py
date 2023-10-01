@@ -1,1 +1,1 @@
-file = open("new.txt", "x")
+file = open("dummy.txt", "x")

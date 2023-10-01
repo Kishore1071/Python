@@ -13,7 +13,7 @@ print(file.read())
 file.close()
 
 
-# Write Method: Clears old content and only keep the new content
+# # Write Method: Clears old content and only keep the new content
 
 
 file = open("textfile.txt", "w")

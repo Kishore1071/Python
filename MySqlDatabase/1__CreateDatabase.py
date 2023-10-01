@@ -8,4 +8,4 @@ mysql_db = mysql.connector.connect(
 
 mysql_cursor = mysql_db.cursor()
 
-mysql_cursor.execute("create database mydatabase")
+mysql_cursor.execute("create database test_db")  

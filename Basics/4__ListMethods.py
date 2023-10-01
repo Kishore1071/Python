@@ -1,9 +1,6 @@
 animals = ['Lion', 'Tiger', 'Leopard', "Jaguar", "Dear", "Wolf", "Fox"]
 number_list = [43,12,67,9,34,75,34,5]
 
-data_set1 = [1, 2, 3]
-data_set2 = [4, 5, 6]
-
 
 # Accessing  [This is the only method available for tuple datatype]
 

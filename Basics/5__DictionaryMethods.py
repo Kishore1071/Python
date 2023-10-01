@@ -7,7 +7,7 @@ laptop = {
 
 # Accessing
 
-laptop['brand']
+laptop["brand"]
 
 
 # Updating

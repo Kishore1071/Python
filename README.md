@@ -1,1 +1,3 @@
-# Python
+# Used Packages
+
+    pip install numpy

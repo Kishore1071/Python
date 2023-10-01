@@ -1,5 +1,7 @@
 movie = "Avenger"
 
+print(movie)
+
 
 """
 Variables are used to store data, which can be reused where ever we want
