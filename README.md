@@ -1,3 +1,1 @@
-# Used Packages
-
-    pip install numpy
+# Python topics for beginner
