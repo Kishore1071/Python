@@ -1,6 +1,6 @@
 import pymongo
 
-mongo_client = pymongo.MongoClient('mongodb+srv://Kishore:Kishore_Mongodb1071@cluster0.avdfxtj.mongodb.net/?retryWrites=true&w=majority')
+mongo_client = pymongo.MongoClient('')
 
 mongo_db = mongo_client['mydatabase']
 
