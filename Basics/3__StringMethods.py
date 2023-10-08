@@ -4,6 +4,8 @@ movie = "Avenger Infinity War"
 
 my_favourite_movie = f"My favourite movie is {movie}"
 
+print(my_favourite_movie)
+
 
 # Multi line string
 

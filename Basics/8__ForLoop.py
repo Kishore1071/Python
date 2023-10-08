@@ -19,7 +19,7 @@ for n in numbers:
 
 #  Tuple
 
-animals = ['Lion', 'Tiger', 'Elephant']
+animals = ('Lion', 'Tiger', 'Elephant')
 
 for animal in animals:
 
