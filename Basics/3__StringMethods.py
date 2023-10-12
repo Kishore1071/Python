@@ -12,7 +12,7 @@ print(my_favourite_movie)
 content1 = """This is 
 a 
 paragraph
-"""
+# """
 
 content2 = '''This is 
 a 
@@ -24,14 +24,14 @@ paragraph
 
 name = "Antony Stark"
 
-name[2:6]
+print(name[2:6])
 
-name[::-1]  # Reverse the string
+print(name[::-1])  # Reverse the string
 
 
 #  Length
 
-len(name)
+print(len(name))
 
 
 # Concatination
@@ -39,25 +39,27 @@ len(name)
 first_name = "Captain"
 last_name = "America"
 
-full_name = first_name + " " + last_name
+full_name = first_name + ' ' + last_name
+
+print(full_name)
 
 
 # Escape Characters
 
-description = "Dark Knight movie was directed by \"Christopher Nolan\"."
+description = "Dark Knight movie was directed by  \"Christopher\" Nolan"
+
+print(description)
 
 
 # Index accessing of string
 
 car = "Rolls Royce"
 
-car[3]
+print(car[4])
 
 
 # Coverting string to list
 
 planets = "Mercury Venus Earth Mars Jupiter"
-
-planets.split(" ")
 
 print(planets.split(" "))
