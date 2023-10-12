@@ -1,1 +1,1 @@
-file = open("dummy.txt", "x")
+file = open("javascript.txt", "x")

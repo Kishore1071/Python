@@ -1,16 +1,16 @@
 # Append Method: adds new data with existing data
 
-file = open("textfile.txt", "a")
+# file = open("textfile.txt", "a")
 
-file.write("I'm Kishore")
+# file.write("I'm Kishore")
 
-file.close()
+# file.close()
 
-file = open("textfile.txt", "r")
+# file = open("textfile.txt", "r")
 
-print(file.read())
+# print(file.read())
 
-file.close()
+# file.close()
 
 
 # # Write Method: Clears old content and only keep the new content

@@ -5,14 +5,23 @@ class PersonalDetails:
         self.name = name
         self.age = age
 
-    def getName(self, year):
+    def getName(self):
 
-        return f"{self.name} and {year}"
+        return self.name
+    
+    def setAge(self, new_age):
+
+        self.age = new_age
+
+        return self.age
 
 
 person1 = PersonalDetails("Kishore", 25)
 
-print(person1.getName(1998))
+print(person1.getName())
+print(person1.setAge(26))
+
+
 
 
 

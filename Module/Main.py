@@ -1,5 +1,5 @@
 # import Calculator
-from Calculator import Addtion
+from Calculator import *
 
 a = Addtion(15,2)
 
