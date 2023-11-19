@@ -1,9 +1,9 @@
 import os
 
 
-if os.path.exists("new.txt"):
+if os.path.exists("old_text_file.txt"):
 
-    os.remove("new.txt")
+    os.remove("old_text_file.txt")
 
 else:
 

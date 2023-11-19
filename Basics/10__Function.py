@@ -2,11 +2,11 @@
 
 # # Basic function
 
-# def Check():
+def Check():
 
-#     print("Function is  working")
+    print("Function is working")
 
-# Check()
+Check()
 
 
 # # Function with parameters and arguments
@@ -31,12 +31,12 @@
 
 # Accepting unlimited arguments
 
-def AddData(*args, **kwargs):
+# def AddData(*args, **kwargs):
 
-    print(args)
-    print()
-    print(kwargs)
+#     print(args)
+#     print()
+#     print(kwargs)
 
-AddData(num1 = 8, num2 = 2,num3 = 58)
+# AddData(num1 = 8, num2 = 2,num3 = 58)
 
 

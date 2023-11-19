@@ -2,6 +2,7 @@ import numpy
 
 new_array = numpy.array([1, 2, 3, 4, 5])
 
+
 print(new_array)
 print(type(new_array))
 print(numpy.__version__)

@@ -1,10 +1,7 @@
 # No error
-
-x = 1
-
 try:
 
-    print(x)
+    x = x + 2
 
 except:
 
@@ -14,26 +11,23 @@ else:
 
     print(f"Value of x is {x}")
 
-finally:
-
-    print("code block executed")
 
 
 
-# With error
+# # With error
 
-try:
+# try:
 
-    print(y)
+#     print(y)
 
-except:
+# except:
 
-    print("Something went wrong")
+#     print("Something went wrong")
 
-else:
+# else:
 
-    print(f"Value of x is {y}")
+#     print(f"Value of x is {y}")
 
-finally:
+# finally:
 
-    print("code block executed")
+#     print("code block executed")

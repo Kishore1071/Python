@@ -5,29 +5,35 @@ pet = "dog"
 
 for a in pet:
 
-    print(a)
+    pass
 
 
 #  List
 
 numbers = [1, 2, 3, 4]
 
-for n in numbers:
+# for n in numbers:
 
-    print(n)
+#     if n == 2:
+
+#         continue
+
+#     else:
+
+#         print(n)
 
 
 #  Tuple
 
-animals = ('Lion', 'Tiger', 'Elephant')
+# animals = ('Lion', 'Tiger', 'Elephant')
 
-for animal in animals:
+# for animal in animals:
 
-    print(animal)
+#     print(animal)
 
 
 #  Range
 
-for number in range(0, 11):
+for number in range(0, 100, 15):
 
     print(number)

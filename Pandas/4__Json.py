@@ -41,4 +41,4 @@ data = {
 
 json2 = pandas.DataFrame(data)
 
-print(json2) 
+print(json2.to_string()) 

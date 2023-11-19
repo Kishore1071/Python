@@ -30,7 +30,7 @@ new_array2 = first_array.view()
 
 # Shape of array
 
-two_dimensional_array = numpy.array([[1, 2, 3, 4], [5, 6, 7, 8]])
+two_dimensional_array = numpy.array([[1, 2, 3, 4], [5, 6, 7, 8],])
 
 print(two_dimensional_array.shape)
 
@@ -57,16 +57,16 @@ print(array3)
 
 array4 = numpy.array([1, 2, 3, 4, 5, 6, 7, 8, 9])
 
-array5 = numpy.array_split(array, 3)
+array5 = numpy.array_split(array4, 3)
 
 print(array5)
 
 
 # Finding the index of value
 
-index_of_array = numpy.where(array4 == 3)
+index_of_array = numpy.where(second_array == 3)
 
-print(index_of_array)
+print(index_of_array, "rtyui")
 
 
 # Sort

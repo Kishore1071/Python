@@ -1,1 +1,1 @@
-file = open("javascript.txt", "x")
+file = open("old_text_file.txt", "x")

@@ -1,5 +1,27 @@
-name = str(input("Enter your name : "))
+number = int(input("Enter any number: "))
 
-my_favourite_movie = f"Welcome {name}"
+number = str(number)
 
-print(my_favourite_movie)
+number_length = len(number)
+
+new_list = []
+
+total = 0
+
+for n in number:
+
+    value = int(n) ** number_length
+
+    total = total + value
+
+    new_list.append(value)
+
+print(new_list)
+
+if int(number) == sum(new_list):
+
+    print("Armstrong number")
+
+else:
+
+    print("Not an armstrong number")

@@ -2,7 +2,7 @@
 
 # file = open("textfile.txt", "a")
 
-# file.write("I'm Kishore")
+# file.write("\nI'm Kishore")
 
 # file.close()
 
@@ -18,7 +18,7 @@
 
 file = open("textfile.txt", "w")
 
-file.write("I'm Kishore")
+file.write("New Data")
 
 file.close()
 

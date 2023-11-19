@@ -2,7 +2,6 @@
 
 #  +, -, *, /, %, **, //
 
-
 """Assignment Operators"""
 
 #  =
@@ -12,12 +11,11 @@
 
 #  ==, !=, >, <, >=, <=
 
+# print(a < b)
 
 """Logical Operators"""
 
-
 #  and, or, not
-
 
 """Identity Operators"""
 
