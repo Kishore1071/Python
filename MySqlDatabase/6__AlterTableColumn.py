@@ -13,14 +13,14 @@ mysql_cursor = mysql_db.cursor()
 
 mysql_cursor.execute("alter table customers add column age int")
 
-# Delete Column
+# # Delete Column
 
-mysql_cursor.execute("alter table customers drop column age")
+# mysql_cursor.execute("alter table customers drop column age")
 
-# Change Column Name
+# # Change Column Name
 
-mysql_cursor.execute("alter table customers rename column age to customer_age")
+# mysql_cursor.execute("alter table customers rename column age to customer_age")
 
-# Change Column Datatype
+# # Change Column Datatype
 
-mysql_cursor.execute("alter table customers modify column customer_age varchar(255)")
+# mysql_cursor.execute("alter table customers modify column customer_age varchar(255)")

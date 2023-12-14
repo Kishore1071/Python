@@ -1,27 +1,19 @@
-number = int(input("Enter any number: "))
+a = "j"
 
-number = str(number)
+try:
 
-number_length = len(number)
+    new = a + "Qwerty"
 
-new_list = []
+except:
 
-total = 0
-
-for n in number:
-
-    value = int(n) ** number_length
-
-    total = total + value
-
-    new_list.append(value)
-
-print(new_list)
-
-if int(number) == sum(new_list):
-
-    print("Armstrong number")
+    print("Datatype error, value of a must be string")
 
 else:
 
-    print("Not an armstrong number")
+    new = a + "Qwerty"
+
+    print(f"The expected output is {new}")
+
+finally:
+
+    print("Process Completed")

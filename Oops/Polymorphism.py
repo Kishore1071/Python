@@ -44,6 +44,6 @@ def Addition(*args):
 
             return f"{sum(number_list)}, {sentance.strip()}"
 
-result = Addition("This", 'is', 'a', 'code', 343,56,3,45,5, "asds", 3434)
+result = Addition()
 
 print(result)

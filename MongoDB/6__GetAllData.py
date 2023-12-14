@@ -17,7 +17,7 @@ for x in data:
 
 # To get only specific fields in collections
 
-for x in customer_collection.find({}, {"_id": 0,"name": 1}):
+for x in customer_collection.find({}, {"_id": 0,"name": 1, "age": 1}):
 
     print(x)
 

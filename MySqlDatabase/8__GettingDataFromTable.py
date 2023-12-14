@@ -4,7 +4,7 @@ mysql_db = mysql.connector.connect(
     host = "localhost",
     user = "root",
     password = "1234",
-    database="mydatabase"
+    database="test_db"
 )
 
 mysql_cursor = mysql_db.cursor()
@@ -16,7 +16,7 @@ mysql_cursor.execute("select * from customers")
 """
 mysql_cursor.execute("select * from customers limit 10") # to get only required limit data form return
 
-mysql_cursor.execute("select * from customers offset 6") # to get mention starting data form return
+mysql_cursor.execute("select * from customers offset 6 limit 10") # to get mention starting data form return
 """
 
 customer_data = mysql_cursor.fetchall()

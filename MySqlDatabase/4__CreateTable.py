@@ -9,7 +9,7 @@ mysql_db = mysql.connector.connect(
 
 mysql_cursor = mysql_db.cursor()
 
-mysql_cursor.execute("create table customers (id int auto_increment primary key ,name varchar(255), address varchar(255))")
+mysql_cursor.execute("create table customers (id int auto_increment primary key , name varchar(255), address varchar(255))")
 
 
 

@@ -10,7 +10,7 @@ class PersonalDetails:
 
         return self.name + str(self.age) + str(self.year)
 
-class ProfessionalDetails(PersonalDetails, ):
+class ProfessionalDetails(PersonalDetails):
 
     def __init__(self,name, age, year, designation):
         super().__init__(name, age, year)
@@ -23,11 +23,7 @@ class ProfessionalDetails(PersonalDetails, ):
 
 professional = ProfessionalDetails("Kishore", 25, 1998, "Software Developer")
 
+print(professional.name)
 print(professional.designation)
-
 print(professional.getUserName())
 print(professional.getDesignation())
-
-person2 = ProfessionalDetails("person_data", 23, 56423, "Job")
-
-print(person2.getUserName)
