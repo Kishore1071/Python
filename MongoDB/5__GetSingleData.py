@@ -11,3 +11,4 @@ customer_collection = mongo_db['customers']
 data = customer_collection.find_one()
 
 print(data)
+

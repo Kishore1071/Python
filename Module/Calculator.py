@@ -13,3 +13,5 @@ def Multiplication(a, b):
 def Division(a, b):
 
     return a / b
+
+abc = 10
