@@ -11,11 +11,11 @@ mysql_cursor = mysql_db.cursor()
 
 # Adding New Column
 
-mysql_cursor.execute("alter table customers add column age int")
+# mysql_cursor.execute("alter table customers add column age int")
 
 # # Delete Column
 
-# mysql_cursor.execute("alter table customers drop column age")
+# mysql_cursor.execute("alter table customers drop column old_address")
 
 # # Change Column Name
 
@@ -23,4 +23,4 @@ mysql_cursor.execute("alter table customers add column age int")
 
 # # Change Column Datatype
 
-# mysql_cursor.execute("alter table customers modify column customer_age varchar(255)")
+mysql_cursor.execute("alter table customers modify column customer_age int")
