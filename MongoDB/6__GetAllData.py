@@ -7,9 +7,10 @@ mongo_db = mongo_client['mydatabase']
 customer_collection = mongo_db['customers']
 
 # To limit the size of the dataset
-data = customer_collection.find().limit(3)
 
 data = customer_collection.find()
+
+# data = customer_collection.find().limit(3)
 
 for x in data:
 
