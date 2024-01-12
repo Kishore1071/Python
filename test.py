@@ -1,5 +1,6 @@
-import Packages.Add as Add
+# from Packages import Addition
+import Packages
 
-new = Add.Addition(10,20)
+new = Packages.Addition(10, 20)
 
 print(new.AddData())
