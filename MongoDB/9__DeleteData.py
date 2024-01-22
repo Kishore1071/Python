@@ -10,10 +10,10 @@ delete_query = {
     "name": "Peter Parker"
 }
 
-deleted_data = customer_collection.delete_one(delete_query)
+# deleted_data = customer_collection.delete_one(delete_query)
 
 # To delete all data
 
 customer_collection.delete_many({})
 
-print(deleted_data.deleted_count, "Rows deleted")
+# print(deleted_data.deleted_count, "Rows deleted")

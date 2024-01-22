@@ -10,11 +10,11 @@ customer_collection = mongo_db['customers']
 
 data = customer_collection.find()
 
-# data = customer_collection.find().limit(3)
+# data = customer_collection.find().limit(2)
 
-for x in data:
+# for x in data:
 
-    print(x)
+#     print(x)
 
 # To get only specific fields in collections
 

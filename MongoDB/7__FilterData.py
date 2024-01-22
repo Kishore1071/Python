@@ -6,11 +6,11 @@ mongo_db = mongo_client['mydatabase']
 
 customer_collection = mongo_db['customers']
 
-data = customer_collection.find({'name': "Bruce Banner"})
+# data = customer_collection.find({'name': "Bruce Banner"})
 
-for x in data:
+# for x in data:
 
-    print(x)
+#     print(x)
 
 # for x in customer_collection.find({}, {}):
 
@@ -20,9 +20,9 @@ for x in data:
 
 #     print(x)
 
-# filter_query = {"age": {"$gt": 20, "$lt": 50}}
+filter_query = {"age": {"$gt": 20, "$lt": 50}}
 
-# for x in customer_collection.find(filter_query, {"_id": 0,"name": 1}):
+for x in customer_collection.find(filter_query, {"_id": 0,"name": 1}):
 
-#     print(x)
+    print(x)
 
