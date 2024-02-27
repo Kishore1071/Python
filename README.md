@@ -1,1 +1,0 @@
-# Python topics for beginner
