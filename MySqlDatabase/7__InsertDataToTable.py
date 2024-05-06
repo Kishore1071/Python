@@ -9,7 +9,7 @@ mysql_db = mysql.connector.connect(
 
 mysql_cursor = mysql_db.cursor()
 
-query = "insert into customers (name, address, customer_age) values (%s, %s, %s)"
+query = "insert into customers (name, address) values (%s, %s)"
 
 
 # For Single Record
@@ -21,8 +21,8 @@ query = "insert into customers (name, address, customer_age) values (%s, %s, %s)
 # For Multiple Record
 
 values = [
-    ("Kishore", "Cheyur", 25),
-    ("Stark", "New York", 57)
+    ("Kishore", "Cheyur"),
+    ("Stark", "New York")
 ]
 
 mysql_cursor.executemany(query, values)
